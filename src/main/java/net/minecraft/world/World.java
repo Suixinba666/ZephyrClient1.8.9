@@ -1369,11 +1369,13 @@ public abstract class World implements IBlockAccess, InstanceAccess {
         this.unloadedEntityList.clear();
         this.theProfiler.endStartSection("regular");
 
-        for (Iterator<Entity> iterator = this.loadedEntityList.iterator(); iterator.hasNext(); ) {
-            Entity entity2 = iterator.next();
+        Iterator<Entity> it = this.loadedEntityList.iterator();
+
+        while (it.hasNext()) {
+            Entity entity2 = it.next();
 
             if (entity2 == null) {
-                iterator.remove();
+                it.remove();
                 continue;
             }
 
@@ -1409,7 +1411,7 @@ public abstract class World implements IBlockAccess, InstanceAccess {
                     this.getChunkFromChunkCoords(k1, i2).removeEntity(entity2);
                 }
 
-                iterator.remove();
+                it.remove();
                 this.onEntityRemoved(entity2);
             }
         }
