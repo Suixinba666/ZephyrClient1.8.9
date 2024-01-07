@@ -241,7 +241,8 @@ public class NormalMainMenu extends ZephyrMainMenu {
 
     private List<String> getInfoRight() {
         return Arrays.asList(
-                Formatting.RED + "Warning: " + Formatting.RESET + "Public Beta version, does not represent final quality"
+                "https://gitee.com/IzumiiKonata/zephyr-client",
+                Formatting.GOLD + "Author: " + Formatting.RESET + "ImXianyu"
         );
     }
 }
