@@ -1,0 +1,129 @@
+{
+  "Name": "简体中文 (zh_CN)",
+  "Version": "0.0.1",
+  "Author": "ImXianyu",
+  "Translations": {
+    "mainmenu.singleplayer": "单人游戏",
+    "mainmenu.multiplayer": "多人游戏",
+    "mainmenu.altmanager": "账号管理",
+    "mainmenu.settings": "设置",
+    "mainmenu.quit": "退出",
+
+
+    "clickgui.panel.modules": "模块",
+
+    "clickgui.panel.widgets": "小部件",
+
+    "widget.arraylist.name": "启用模块列表",
+    "widget.arraylist.description": "显示启用的模块列表.",
+
+    "settings.arraylistcolor.name": "字体颜色",
+    "settings.arraylistcolorrainbow.name": "字体颜色 彩虹",
+    "settings.arraylistcolorrainbowspeed.name": "字体颜色 彩虹 速度",
+    "settings.arraylistcolorchroma.name": "字体颜色 色度",
+    "settings.arraylistcolorchromaspeed.name": "字体颜色 色度 速度",
+    "settings.arraylistcolorchromavalue.name": "字体颜色 色度 数值",
+    "settings.arraylistrect.name": "背景",
+    "settings.arraylistrectcolor.name": "背景颜色",
+    "settings.arraylistrectcolorrainbow.name": "背景颜色 彩虹",
+    "settings.arraylistrectcolorchroma.name": "背景颜色 色度",
+    "settings.arraylistoutline.name": "描边",
+    "settings.arraylistoutlinecolor.name": "描边颜色",
+    "settings.arraylistoutlinecolorrainbow.name": "描边颜色 彩虹",
+    "settings.arraylistoutlinecolorrainbowspeed.name": "描边颜色 彩虹 速度",
+
+    "settings.arraylistoutlinecolorchroma.name": "描边颜色 色度",
+    "settings.arraylistoutlinecolorchromaspeed.name": "描边颜色 色度 速度",
+    "settings.arraylistoutlinecolorchromavalue.name": "描边颜色 色度 数值",
+
+
+
+    "widget.music.name": "音乐",
+    "widget.music.description": "音乐信息.",
+    "widget.musiclyrics.name": "音乐歌词",
+    "widget.musiclyrics.description": "歌词.",
+    "widget.musicspectrum.name": "音乐频谱",
+    "widget.musicspectrum.description": "频谱.",
+    "settings.multiplier.name": "乘数",
+
+    "clickgui.panel.music": "音乐",
+    "clickgui.panel.music.qrcodelogin": "请使用网易云音乐app扫描二维码来登录.",
+
+    "clickgui.panel.settings": "设置",
+
+    "category.render.name": "视觉",
+    "module.hud.name": "抬头显示",
+    "module.hud.description": "在屏幕上显示一些有用的信息.",
+    "module.clickgui.name": "点击用户界面",
+    "module.clickgui.description": "打开点击用户界面.",
+
+    "category.movement.name": "移动",
+    "module.autosprint.name": "自动疾跑",
+    "module.autosprint.description": "自动帮你按下疾跑键",
+
+    "module.cameranoclip.name": "摄像机穿墙",
+    "module.cameranoclip.description": "可以让你的摄像机穿透方块.",
+
+    "category.other.name": "其他",
+    "module.test.name": "测试",
+    "module.test.description": "开发测试模块.",
+    "module.nocommand.name": "关闭命令系统",
+    "module.nocommand.description": "关闭命令系统.",
+
+
+    "module.perspective.name": "360° 视角",
+    "module.blockanimations.name": "防砍动画",
+    "module.perspective.description": "360° 视角.",
+    "module.blockanimations.description": "防砍动画.",
+    "settings.mode.name": "模式",
+    "settings.x.name": "X 轴",
+    "settings.y.name": "Y 轴",
+    "settings.z.name": "Z 轴",
+    "settings.boolean.name": "Boolean",
+    "settings.number.name": "Number",
+    "settings.mode2.name": "Mode 2",
+    "settings.mode3.name": "Mode 3",
+    "settings.number2.name": "Number 2",
+    "settings.boolean2.name": "Boolean 2",
+    "widget.paperdoll.name": "纸娃娃",
+    "widget.paperdoll.description": "在屏幕上绘制一个玩家模型.",
+    "settings.scale.name": "缩放",
+    "settings.customrotation.name": "自定义视角",
+    "settings.yaw.name": "偏航角度",
+    "settings.pitch.name": "俯仰角度",
+    "settings.volume.name": "音量",
+
+    "settings.language.name": "语言",
+
+    "module.waveycapes.name": "飘扬披风",
+    "module.waveycapes.description": "让你的披风可以随风飘动.",
+    "settings.windmode.name": "风 模式",
+    "settings.capestyle.name": "披风样式",
+    "settings.gravity.name": "重力",
+    "settings.heightmultiplier.name": "高度乘数",
+    "settings.onlylocalplayer.name": "只渲染本地玩家",
+
+    "module.autoclicker.name": "连点器",
+    "module.autoeat.name": "自动吃",
+    "category.combat.name": "攻击",
+    "module.autoclicker.description": "连点器",
+    "category.player.name": "玩家",
+    "module.autoeat.description": "自动吃",
+    "settings.perfecthit.name": "完美连击",
+    "settings.blockhit.name": "自动防砍",
+    "settings.breakblocks.name": "破坏方块",
+    "settings.triggerbot.name": "自动点",
+    "settings.multiattack.name": "多重攻击",
+    "settings.attackplayersfirst.name": "优先攻击玩家",
+    "settings.mincps.name": "最小速度",
+    "settings.maxcps.name": "最大速度",
+    "settings.healthtoeat(percent).name": "低于血量时回血 (百分比)",
+    "widget.keystrokes.name": "按键显示",
+    "widget.keystrokes.description": "按键显示",
+    "settings.renderplayer'sownnametag.name": "显示玩家自己的名字",
+    "settings.firstpersonfirey.name": "第一人称火焰特效Y轴",
+    "settings.size.name": "大小",
+
+    "clickgui.nosettingshere": "没有设置."
+  }
+}
