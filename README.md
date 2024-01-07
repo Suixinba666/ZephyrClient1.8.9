@@ -2,6 +2,7 @@
 
 ## 注意
 ``请保留原作者署名、原项目仓库地址``
+原项目仓库地址：https://gitee.com/IzumiiKonata/zephyr-client
 - LWJGL Version: 3.3.2+13
 - Minecraft Version: 1.8.9
 - Mappings: 1.8.9_stable_22
